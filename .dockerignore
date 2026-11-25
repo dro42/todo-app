@@ -1,0 +1,16 @@
+# Secrets: never send to the build context
+.env*
+!.env.example
+
+# Generated / installed in the image itself
+node_modules
+.next
+out
+
+# Not needed in the image
+.git
+.gitignore
+Dockerfile
+.dockerignore
+db_k8s
+*.md

@@ -54,7 +54,7 @@ export default function NavBar () {
                   
                 </Menu> 
                 <Typography variant="h6">
-                TODO App Rudi
+                TODO App DROZD Andi (SDE28)
               </Typography>
             </Toolbar>
           </AppBar>
